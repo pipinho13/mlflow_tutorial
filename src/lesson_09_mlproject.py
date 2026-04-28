@@ -13,8 +13,8 @@ on the project at ``./mlproject``. You can equivalently run it from a shell:
 
     mlflow run mlproject -P n_estimators=500 --env-manager=local
 
-Run:
-    python src/lesson_09_mlproject.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_09_mlproject
 """
 
 from __future__ import annotations

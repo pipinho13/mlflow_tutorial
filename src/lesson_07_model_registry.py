@@ -14,8 +14,8 @@ This script:
        "challenger".
     4. Loads each by alias to show how downstream code stays version-agnostic.
 
-Run:
-    python src/lesson_07_model_registry.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_07_model_registry
 """
 
 from __future__ import annotations

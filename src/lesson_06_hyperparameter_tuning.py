@@ -7,8 +7,8 @@ see "the best trial in study X".
 
 We use Optuna for the search itself; MLflow only owns logging.
 
-Run:
-    python src/lesson_06_hyperparameter_tuning.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_06_hyperparameter_tuning
 """
 
 from __future__ import annotations

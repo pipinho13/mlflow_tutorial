@@ -11,8 +11,8 @@ We also demonstrate the two main ways to load a logged model:
     - mlflow.pyfunc.load_model — gets back a generic .predict() interface that
       works regardless of the library, perfect for serving.
 
-Run:
-    python src/lesson_05_signatures_and_loading.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_05_signatures_and_loading
 """
 
 from __future__ import annotations

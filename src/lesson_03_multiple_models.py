@@ -6,8 +6,8 @@ the same experiment so they can be compared side-by-side in the MLflow UI.
 The key MLflow trick here: each model family is its own run, but they all live
 in the same experiment, so the UI's run table can sort/filter them together.
 
-Run:
-    python src/lesson_03_multiple_models.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_03_multiple_models
 """
 
 from __future__ import annotations

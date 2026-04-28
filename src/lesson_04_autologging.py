@@ -8,8 +8,8 @@ This script demonstrates two flavours:
     1. mlflow.sklearn.autolog() — params, metrics on training/eval sets, model.
     2. mlflow.xgboost.autolog() — same idea, plus per-iteration training metrics.
 
-Run:
-    python src/lesson_04_autologging.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_04_autologging
 """
 
 from __future__ import annotations

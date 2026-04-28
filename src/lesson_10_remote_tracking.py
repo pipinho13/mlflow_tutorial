@@ -19,8 +19,8 @@ We point MLflow at it, set the S3 credentials so artifact uploads work, and
 log a single run. The exact same Python code as the previous lessons, just
 with two extra environment variables.
 
-Run:
-    python src/lesson_10_remote_tracking.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_10_remote_tracking
 """
 
 from __future__ import annotations

@@ -10,8 +10,8 @@ will:
 This script creates two experiments and produces several runs in each, showing
 the small but useful API surface around organisation.
 
-Run:
-    python src/lesson_02_experiments_and_runs.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_02_experiments_and_runs
 """
 
 from __future__ import annotations

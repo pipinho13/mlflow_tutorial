@@ -14,8 +14,8 @@ Here we build a "PriceBandModel" that:
     - predicts with a GradientBoostingRegressor,
     - returns both the numeric prediction and a discrete "band" (low/mid/high).
 
-Run:
-    python src/lesson_08_custom_pyfunc.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_08_custom_pyfunc
 """
 
 from __future__ import annotations

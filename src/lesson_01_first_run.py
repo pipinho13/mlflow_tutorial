@@ -7,10 +7,10 @@ in the UI. We deliberately use only the most fundamental MLflow API here:
     - mlflow.log_param / mlflow.log_metric / mlflow.log_artifact
     - mlflow.sklearn.log_model
 
-Run:
-    python src/lesson_01_first_run.py
+Run (from the project root, with the venv active):
+    python -m src.lesson_01_first_run
 Then:
-    mlflow ui
+    mlflow ui --backend-store-uri ./mlruns
 and open http://127.0.0.1:5000
 """
 
