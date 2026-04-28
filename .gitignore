@@ -1,0 +1,44 @@
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker / env
+.env
+docker/postgres-data/
+docker/minio-data/
+docker/mlflow-artifacts/
+
+# Local artifacts produced during lessons
+artifacts/
+outputs/
+*.png
+!docs/**/*.png
